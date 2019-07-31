@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>注册</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
+    <meta name='viewport' content='width=640px, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi' />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link href="css/common.css?v=2.0" rel="stylesheet" />
+    <link href="css/hyfmain.css?v=2.0" rel="stylesheet" />
+</head>
+<body>
+    <div class="registered">
+        <div class="registered-fh">
+            <a href="#">
+                <img src="images/login_return@2x.png" />
+            </a>
+        </div>
+        <div class="registered-tit1">
+            注册
+        </div>
+        <div class="registered-tit2">
+            注册账户以后,可在个人中设置登录密码
+        </div>
+        <div class="modal_content">
+            <div>
+                <input class="phone" id="phone1" type="text" autocomplete="off" placeholder="请输入手机号" />
+            </div>
+            <div>
+                <div class="code1">
+                    <input class="code" id="code1" type="text" autocomplete="off" placeholder="输入验证码" />
+                    <input id="btnSendCode1" type="button" class="btn btn-default" value="获取验证码" onclick="sendMessage1()" />
+                </div>
+            </div>
+        </div>
+
+        <div class="next">
+            <button onclick="binding()">注册</button>
+        </div>
+        <div class="registered-tit3">
+            已有账户？去<a>登录</a>
+        </div>
+
+        <div class="home-tit">
+            <div>
+                <span></span>
+            </div>
+            <div>
+                快捷登录
+            </div>
+            <div>
+                <span></span>
+            </div>
+        </div>
+        <div class="siyanli-b">
+            <div class="siyanli-c">
+                <a href="">
+                    <i class="siyanli-icon1"></i>
+                    <div>微信</div>
+                </a>
+            </div>
+            <div class="siyanli-c">
+                <a href="">
+                    <i class="siyanli-icon2"></i>
+                    <div>支付宝</div>
+                </a>
+            </div>
+            <div class="siyanli-c">
+                <a href="">
+                    <i class="siyanli-icon3"></i>
+                    <div>QQ</div>
+                </a>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/jquery-1.11.0.js"></script>
+    <script>
+        var phoneReg = /(^1[3|4|5|7|8]\d{9}$)|(^09\d{8}$)/;//手机号正则
+        var count = 60; //间隔函数，1秒执行
+        var InterValObj1; //timer变量，控制时间
+        var curCount1;//当前剩余秒数
+        /*第一*/
+        function sendMessage1() {
+            curCount1 = count;
+            var phone = $.trim($('#phone1').val());
+            if (!phoneReg.test(phone)) {
+                alert(" 请输入有效的手机号码");
+                return false;
+            }
+            //设置button效果，开始计时
+            $("#btnSendCode1").attr("disabled", "true");
+            $("#btnSendCode1").val(+curCount1 + "秒再获取");
+            InterValObj1 = window.setInterval(SetRemainTime1, 1000); //启动计时器，1秒执行一次
+            //向后台发送处理数据
+
+        }
+        function SetRemainTime1() {
+            if (curCount1 == 0) {
+                window.clearInterval(InterValObj1);//停止计时器
+                $("#btnSendCode1").removeAttr("disabled");//启用按钮
+                $("#btnSendCode1").val("重新发送");
+            }
+            else {
+                curCount1--;
+                $("#btnSendCode1").val(+curCount1 + "秒再获取");
+            }
+        }
+
+        /*提交*/
+        function binding() {
+            alert(1)
+        }
+    </script>
+</body>
+</html>

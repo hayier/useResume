@@ -1,0 +1,1926 @@
+﻿@charset "utf-8";
+
+.padding15 {
+    padding: 0 15px;
+}
+
+.top60 {
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.backfff {
+    background: #fff;
+}
+
+.align {
+    text-align: center;
+}
+
+.borbtn5 {
+    margin-bottom: 5px;
+}
+
+.mbot10 {
+    margin-bottom: 5px;
+}
+
+.borbtn {
+    margin-bottom: 1px;
+}
+
+.mSlider-inner {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    overflow: scroll;
+    position: relative;
+}
+
+.themedetails-tit {
+    width: 90%;
+    margin: 0 auto;
+    color: #232780;
+    font-size: 1.4rem;
+    line-height: 25px;
+    font-family: Arial;
+}
+
+    .themedetails-tit span {
+        float: right;
+        color: #999;
+        font-size: 0.75rem;
+    }
+
+.themedetails-content {
+    width: 90%;
+    margin: 10px auto 20px;
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 22px;
+}
+
+.productdetails img {
+    width: 100%;
+}
+
+.mqw-tit3 {
+    margin: 0 auto;
+    color: #999;
+    font-size: 0.9rem;
+    text-align: center;
+    background: #eee;
+    padding: 10px 0;
+}
+
+    .mqw-tit3 span {
+        margin: 0 10px;
+    }
+
+.pays-product {
+    height: 45px;
+    overflow: hidden;
+}
+
+.pays-product-div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 5px 1.5%;
+    border-top: 1px solid #f3f3f3;
+}
+
+    .pays-product-div > div {
+        float: left;
+        color: #333;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+        .pays-product-div > div:nth-child(1) {
+            width: 16%;
+        }
+
+        .pays-product-div > div:nth-child(2) {
+            width: 42%;
+        }
+
+        .pays-product-div > div:nth-child(3) {
+            width: 42%;
+        }
+
+.product-qw i {
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+
+.product-fx {
+    background: url(../images/tab_home@2x.png) center no-repeat;
+    background-size: 22px;
+}
+
+.product-jiaru {
+    -webkit-appearance: none;
+    border: 2px solid #232780;
+    width: 90%;
+    height: 38px;
+    color: #232780;
+    background: #fff;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.product-gomai {
+    display: block;
+    margin: 0 auto;
+    border: 1px solid #232780;
+    width: 90%;
+    height: 38px;
+    line-height: 38px;
+    color: #fff;
+    background: #232780;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+.order-product-list {
+    padding: 15px;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+.product-radius {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.order-product-img {
+    flex: 0 0 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+    .order-product-img img {
+        max-width: 100%;
+        display: block;
+    }
+
+.order-product-content {
+    flex: 1;
+    margin: 0 0 0 20px;
+}
+
+.order-product-txt1 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    font-size: 0.9rem;
+    color: #000;
+    line-height: 22px;
+    height: 44px;
+}
+
+.order-product-txt2 {
+    font-family: Arial;
+    font-size: 1.2rem;
+    color: #232780;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.order-product-txt3 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 22px;
+}
+
+.order-product-txt4 {
+    font-family: Arial;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+    .order-product-txt4 span {
+        float: right;
+    }
+
+.order-product-txt5 {
+    font-size: 0.8rem;
+    color: #999;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.orderdetails-zongji {
+    flex: 1;
+}
+
+.orderdetails-bor {
+    padding: 10px 0;
+    margin: 0 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.orderdetails-tt {
+    padding: 10px 0;
+}
+
+.orders-t2 {
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 25px;
+    padding: 10px 15px;
+}
+
+.orders-text {
+    width: 80%;
+    height: 25px;
+    border: 0;
+    font-size: 0.95rem;
+    -webkit-appearance: none;
+}
+
+.orderdetails-tt3 {
+    font-size: 0.85rem;
+    color: #999;
+    line-height: 25px;
+}
+
+    .orderdetails-tt3 span {
+        float: right;
+    }
+
+.orderdetails-tt4 {
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 24px;
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+    .orderdetails-tt4 span {
+        float: right;
+    }
+
+.orderdetails-tt5 {
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 25px;
+}
+
+    .orderdetails-tt5 span {
+        float: right;
+    }
+
+.product-jiarugw {
+    width: 90%;
+    height: 38px;
+    color: #fff;
+    background: #232780;
+    letter-spacing: 0.5px;
+    font-size: 0.95rem;
+    border-radius: 0;
+    -webkit-appearance: none;
+    border: 2px solid #232780;
+    box-sizing: border-box;
+}
+
+.mSlider-box {
+    position: relative;
+    height: 70vh;
+}
+
+.mSlider-over {
+    height: 58vh;
+    overflow: scroll;
+}
+
+.mSlider-btn {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+}
+
+.shoppingSelect-right {
+    padding: 30px 20px 0 20px;
+}
+
+    .shoppingSelect-right em {
+        font-family: Arial;
+        font-size: 0.8rem;
+        color: #999;
+        line-height: 28px;
+    }
+
+    .shoppingSelect-right .sum {
+        float: right;
+        width: 75px;
+        height: 28px;
+        border: 1px solid #ccc;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .shoppingSelect-right > span {
+        color: #BABABA;
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+
+    .shoppingSelect-right .sum span {
+        display: inline-block;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+        .shoppingSelect-right .sum span img {
+            width: 80%;
+        }
+
+        .shoppingSelect-right .sum span:nth-child(1), .sum span:nth-child(3) {
+            width: 25%;
+        }
+
+.sum span:nth-child(3) {
+    border: none;
+}
+
+.shoppingSelect-right .sum span:nth-child(2) {
+    width: 50%;
+    color: #999;
+    font-size: 14px;
+}
+
+.specification {
+    font-family: Arial;
+    font-size: 0.8rem;
+    color: #999;
+    padding: 20px;
+}
+
+.Right_Box_list_three {
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 0 10px;
+}
+
+    .Right_Box_list_three li {
+        height: 30px;
+        margin-left: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 15px;
+        font-size: 0.8rem;
+        border-radius: 5px;
+    }
+
+.queren {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #CCCCCC;
+    box-sizing: content-box;
+    position: absolute;
+    bottom: 0;
+}
+
+    .queren span {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #fff;
+    }
+
+        .queren span.activeTwo {
+            background: #232780;
+            color: #fff;
+        }
+
+.activeBG {
+    background: #F0F0F0;
+    color: #000;
+}
+
+.activeTwo {
+    background: #232780;
+    color: #fff;
+}
+
+    .activeTwo a {
+        color: #fff;
+    }
+
+/*=======================收货地址=============================*/
+
+.wx-product-store {
+    margin-top: 0;
+    z-index: 2;
+}
+
+.shipping-address {
+    border-bottom: 1px solid #f7f7f7;
+    padding: 10px 15px;
+}
+
+    .shipping-address p {
+        margin: 0;
+        line-height: 22px;
+        color: #000;
+        font-size: 0.9rem;
+    }
+
+        .shipping-address p:nth-child(1) {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+            .shipping-address p:nth-child(1) span {
+                margin-right: 5px;
+            }
+
+    .shipping-address em {
+        float: right;
+        font-style: normal;
+    }
+
+        .shipping-address em img {
+            height: 24px;
+        }
+
+.mine_icon {
+    -webkit-appearance: none;
+    border: 0;
+    width: 24px;
+    height: 24px;
+    border-radius: 0;
+    background: #fff url(../images/icon10.png) center 0 no-repeat;
+    background-size: 25px;
+}
+
+.pays {
+    height: 45px;
+    overflow: hidden;
+}
+
+.pays-div {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #f3f3f3;
+}
+
+    .pays-div span {
+        display: inline-block;
+        width: 60%;
+        color: #000;
+        line-height: 45px;
+        font-size: 0.8rem;
+        text-align: right;
+        padding-right: 10%;
+        letter-spacing: 0.5px;
+    }
+
+.orders-btn {
+    float: right;
+    -webkit-appearance: none;
+    border: 1px solid #232780;
+    width: 30%;
+    height: 45px;
+    color: #fff;
+    background: #232780;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+
+
+/*=======================订单详情=============================*/
+
+.orderdetails-bg {
+    padding: 15px 8% 5px 8%;
+    overflow: hidden;
+    background: -webkit-linear-gradient(left, #f75858, #f75858, #f76734, #f76734);
+    background: -o-linear-gradient(left,#f75858, #f75858, #f76734, #f76734);
+    background: -moz-linear-gradient(left,#f75858, #f75858, #f76734, #f76734);
+    background: -ms-linear-gradient(left,#f75858, #f75858, #f76734, #f76734);
+    display: flex;
+}
+
+.orderdetails-d8 {
+    width: 65%;
+    display: block;
+}
+
+.orderdetails-d5 {
+    color: #fff;
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+}
+
+.orderdetails-d6 {
+    color: #fff;
+    font-size: 0.8rem;
+    margin-bottom: 5px;
+}
+
+.orderdetails-d7 {
+    width: 35%;
+    display: flex;
+    align-items: center;
+}
+
+    .orderdetails-d7 img {
+        width: 100%;
+    }
+
+.orderdetails-d4 {
+    padding: 10px 15px;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 20px;
+    border-bottom: 1px solid #eee;
+}
+
+    .orderdetails-d4 span {
+        float: left;
+        display: block;
+        width: 3px;
+        height: 17px;
+        margin-right: 10px;
+        background: #533f34;
+        margin-top: 2px;
+    }
+
+.orderdetails-da {
+    padding: 10px 0;
+}
+
+.orderdetails-xx {
+    padding: 2px 15px;
+    color: #999;
+    font-size: 0.9rem;
+}
+
+.orderdetails-kefu {
+    padding: 10px 0;
+    color: #000;
+    font-size: 1rem;
+    line-height: 30px;
+}
+
+    .orderdetails-kefu a {
+        color: #000;
+        display: block;
+    }
+
+        .orderdetails-kefu a > div {
+            width: 105px;
+            margin: 0 auto;
+        }
+
+    .orderdetails-kefu span {
+        float: left;
+        width: 35px;
+        height: 30px;
+    }
+
+        .orderdetails-kefu span img {
+            height: 24px;
+            padding-top: 3px;
+        }
+
+/*=======================添加地址=============================*/
+
+.address1 {
+    padding: 10px 0;
+    margin: 0 15px;
+    line-height: 30px;
+    display: flex;
+    border-bottom: 1px solid #f7f7f7;
+}
+
+    .address1 > input {
+        box-sizing: border-box;
+    }
+
+.address1-txt {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    -webkit-appearance: none;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    color: #000;
+    font-size: 0.95rem;
+}
+
+.address1-select {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    -webkit-appearance: none;
+    border: 0;
+    width: 100%;
+    height: 30px;
+    background: #fff;
+    color: #000;
+    font-size: 0.95rem;
+    background: url(../images/icon8.png) no-repeat;
+    background-position: right;
+    background-size: 28px;
+    box-sizing: border-box;
+}
+
+.address1-textarea {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    -webkit-appearance: none;
+    border: 0;
+    width: 100%;
+    height: 80px;
+    line-height: 20px;
+    background: #fff;
+    color: #000;
+    font-size: 0.95rem;
+}
+
+.address1-textarea1 {
+    flex: 1;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    -webkit-appearance: none;
+    border: 0;
+    width: 100%;
+    height: 240px;
+    line-height: 20px;
+    background: #fff;
+    color: #000;
+    font-size: 0.95rem;
+}
+
+.order-application {
+    position: fixed;
+    right: 5%;
+    bottom: 20px;
+    left: 5%;
+    -webkit-appearance: none;
+    border: 0;
+    width: 90%;
+    height: 38px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    border-radius: 0;
+    background: #232780;
+}
+
+
+.add {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    line-height: 24px;
+    color: #000;
+    font-size: 1rem;
+    padding: 30px 0;
+    background: #f7f7f7;
+    z-index: 1;
+}
+
+    .add > a {
+        display: block;
+        width: 135px;
+        margin: 0 auto;
+    }
+
+    .add img {
+        height: 24px;
+        float: left;
+        margin-right: 5px;
+    }
+
+/*=======================联系客服=============================*/
+
+.customerservice {
+    height: 100vh;
+    position: relative;
+}
+
+.customerservice-img {
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+    text-align: center;
+}
+
+    .customerservice-img img {
+        display: block;
+        margin: 30px auto;
+    }
+
+.customerservice-tit {
+    text-align: center;
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+/*=======================分类=============================*/
+
+.classification-header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    width: 94%;
+    margin: 0 auto;
+    padding: 10px 3%;
+    background: #fff;
+    z-index: 1;
+}
+
+.classification-gjc {
+    width: 100%;
+    height: 35px;
+    color: #000;
+    font-size: 0.9rem;
+    border: 0;
+    box-sizing: border-box;
+    text-indent: 45px;
+    border-radius: 3px;
+    background: #f0f0f0 url(../images/home-@2x.png) left 10px top 7px no-repeat;
+    background-size: 22px;
+}
+
+.classification-img1 {
+    width: 100%;
+    display: block;
+}
+
+.wy-content {
+    overflow: hidden;
+    z-index: 2;
+}
+
+.menu-left, .menu-right {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    bottom: 0;
+    overflow-y: scroll;
+}
+
+    .menu-right #loading {
+        left: 11px;
+        top: 44px;
+    }
+
+.menu-left {
+    float: left;
+    width: 80px;
+    background: #f0f0f0;
+}
+
+    .menu-left ul li {
+        box-sizing: border-box;
+        font-size: 0.8rem;
+        color: #000;
+        width: 80px;
+        height: 42px;
+        line-height: 42px;
+        text-align: center;
+    }
+
+        .menu-left ul li.active {
+            background: #fff;
+            position: relative;
+        }
+
+            .menu-left ul li.active:before {
+                content: " ";
+                position: absolute;
+                display: block;
+                width: 4px;
+                height: 100%;
+                background: #000;
+                top: 0;
+                left: 0;
+            }
+
+.menu-right {
+    background: #fff;
+    position: inherit;
+    margin-left: 80px;
+    margin-top: 55px;
+    right: 0;
+    bottom: 0;
+}
+
+    .menu-right ul {
+        overflow: hidden;
+        width: 100%;
+    }
+
+.menu-product {
+    width: 94%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+    .menu-product > div {
+        float: left;
+        width: 30.3%;
+        margin: 10px 1.5% 0;
+    }
+
+.menu-div a {
+    display: block;
+}
+
+.menu-img {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+}
+
+    .menu-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.menu-title {
+    line-height: 20px;
+    padding: 10px 0;
+    color: #000;
+    font-size: 0.8rem;
+    text-align: center;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+/*=======================个人中心=============================*/
+.info-tit4 {
+    padding: 10px 15px;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: bold;
+    line-height: 22px;
+}
+
+    .info-tit4 > span {
+        float: right;
+        color: #ccc;
+        font-size: 0.7rem;
+        line-height: 22px;
+    }
+
+    .info-tit4 img {
+        float: right;
+        height: 14px;
+        margin-top: 4px;
+    }
+
+.info-tit5 {
+    padding: 12px 15px;
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 22px;
+}
+
+    .info-tit5 a > span {
+        float: right;
+        color: #999;
+        line-height: 22px;
+    }
+
+    .info-tit5 img {
+        float: right;
+        height: 14px;
+        margin-top: 4px;
+    }
+
+.siyanli-b {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 0 15px 0;
+    margin-bottom: 5px;
+}
+
+    .siyanli-b > div {
+        flex: 1;
+        display: inline-block;
+    }
+
+.siyanli-c {
+    color: #666;
+    font-size: 0.75rem;
+    text-align: center;
+}
+
+    .siyanli-c a {
+        display: inline-block;
+        color: #000;
+    }
+
+    .siyanli-c i {
+        display: inline-block;
+        width: 44px;
+        height: 32px;
+    }
+
+.siyanli-icon1 {
+    background: url(../images/mine_icon1@2x.png) center no-repeat;
+    background-size: 22px;
+}
+
+.siyanli-icon2 {
+    background: url(../images/mine_icon2@2x.png) center no-repeat;
+    background-size: 24px;
+}
+
+.siyanli-icon3 {
+    background: url(../images/mine_icon3@2x.png) center no-repeat;
+    background-size: 24px;
+}
+
+.siyanli-icon4 {
+    background: url(../images/mine_icon4@2x.png) center no-repeat;
+    background-size: 24px;
+}
+
+.personalcenter {
+    padding: 15px;
+    overflow: hidden;
+}
+
+.personalcenter-img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 15px;
+}
+
+    .personalcenter-img img {
+        max-width: 100%;
+    }
+
+.personalcenter-tit {
+    color: #000;
+    font-size: 1rem;
+    line-height: 20px;
+    margin: 10px 0 5px;
+}
+
+.personalcenter-time {
+    color: #999;
+    font-size: 0.75rem;
+    font-family: Arial;
+    line-height: 20px;
+}
+
+    .personalcenter-time span {
+        display: inline-block;
+        padding: 0 9px;
+        color: #fff;
+        font-size: 0.7rem;
+        line-height: 18px;
+        border-radius: 25px;
+        background: #afb994;
+        background: -webkit-linear-gradient(top,#DAAF6B,#F3CD8F);
+        background: -o-linear-gradient(bottom,#DAAF6B,#F3CD8F);
+        background: -moz-linear-gradient(bottom,#DAAF6B,#F3CD8F);
+        background: linear-gradient(top bottom,#DAAF6B,#F3CD8F);
+    }
+
+.themedetails-tit {
+    width: 90%;
+    margin: 0 auto;
+    color: #000;
+    font-size: 1.2rem;
+    line-height: 25px;
+}
+
+    .themedetails-tit span {
+        float: right;
+        color: #999;
+        font-size: 0.8rem;
+    }
+
+.themedetails-content {
+    width: 90%;
+    margin: 10px auto 20px;
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 22px;
+}
+
+
+.mqw-tit3 {
+    margin: 0 auto;
+    color: #999;
+    font-size: 0.9rem;
+    text-align: center;
+    background: #eee;
+    padding: 10px 0;
+}
+
+    .mqw-tit3 span {
+        margin: 0 10px;
+    }
+
+.jine {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 0 20px;
+}
+
+    .jine > div {
+        flex: 1;
+        display: inline-block;
+        text-align: center;
+    }
+
+        .jine > div:nth-child(1),
+        .jine > div:nth-child(2) {
+            border-right: 1px solid #eee;
+        }
+
+.jine-div > div:nth-child(1) {
+    color: #999;
+    font-size: 0.75rem;
+}
+
+.jine-div > div:nth-child(2) {
+    color: #000;
+    font-size: 0.7rem;
+    position: relative;
+    top: 8px;
+}
+
+    .jine-div > div:nth-child(2) span {
+        font-size: 1rem;
+    }
+
+/*=======================我的订单=============================*/
+
+.tabs .horizontal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+    .tabs .horizontal li {
+        float: left;
+        list-style: none;
+        height: 40px;
+        line-height: 40px;
+        width: 20%;
+        text-align: center;
+        cursor: pointer;
+        font-size: 0.8rem;
+        color: #000;
+        border-bottom: 3px solid #fff;
+    }
+
+
+        .tabs .horizontal li.selectActive span {
+            width: 22px;
+            display: block;
+            margin: 0 auto;
+            line-height: 30px;
+            height: 3px;
+            background: #000;
+        }
+
+
+.tabs > div {
+    display: none;
+    clear: both;
+    margin-top: 52px;
+}
+
+    .tabs > div p {
+        font-size: 14px;
+        color: #000;
+        line-height: 22px;
+        padding: 20px 15px;
+    }
+
+.homepage-numbering {
+    border-bottom: 1px solid #eee;
+    padding: 10px 15px;
+}
+
+    .homepage-numbering span {
+        color: #000;
+        font-size: 0.8rem;
+    }
+
+    .homepage-numbering em {
+        float: right;
+        font-style: normal;
+        color: #ff0000;
+        font-size: 0.8rem;
+    }
+
+.order-payment-amount {
+    font-size: 0.9rem;
+    color: #000;
+    text-align: right;
+    padding: 10px 15px 15px 15px;
+}
+
+    .order-payment-amount span {
+        margin-left: 5px;
+    }
+
+.order-payment-amount1 {
+    font-size: 0.9rem;
+    color: #000;
+    text-align: right;
+    padding: 0 15px 15px 0;
+}
+
+    .order-payment-amount1 input {
+        margin-left: 10px;
+    }
+
+.order-product-list {
+    padding: 15px;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    border-bottom: 1px solid #eee;
+}
+
+
+.order-product-img {
+    flex: 0 0 100px;
+    height: 100px;
+    overflow: hidden;
+}
+
+    .order-product-img img {
+        max-width: 100%;
+        display: block;
+    }
+
+.order-product-content {
+    flex: 1;
+    margin: 0 0 0 20px;
+}
+
+.order-product-txt33 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 22px;
+}
+
+.order-product-txt44 {
+    font-family: Arial;
+    font-size: 0.9rem;
+    color: #333;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+.order-product-txt55 {
+    font-size: 0.8rem;
+    color: #999;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.order-qx {
+    -webkit-appearance: none;
+    border: 1px solid #999;
+    width: 80px;
+    height: 30px;
+    color: #999;
+    background: #fff;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    border-radius: 25px;
+}
+
+.order-qzf {
+    -webkit-appearance: none;
+    border: 1px solid #000;
+    width: 80px;
+    height: 30px;
+    color: #000;
+    background: #fff;
+    letter-spacing: 0.5px;
+    font-size: 0.9rem;
+    border-radius: 25px;
+}
+
+.myreward-amount {
+    background: url(../images/personal-bg3.png) center 0 no-repeat;
+    background-size: cover;
+    padding: 15px;
+    overflow: hidden;
+    color: #000;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+    .myreward-amount a {
+        float: right;
+        min-width: 40px;
+        height: 22px;
+        line-height: 22px;
+        display: block;
+        background: #000;
+        padding: 0 8px;
+        color: #fff;
+        font-size: 0.8rem;
+        text-align: center;
+        border-radius: 25px;
+    }
+
+    .myreward-amount p {
+        text-align: center;
+    }
+
+.myreward-list {
+    margin-bottom: 1px;
+    padding: 15px;
+}
+
+.myreward-tit {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+    .myreward-tit span {
+        float: right;
+        font-family: Arial;
+        font-weight: normal;
+    }
+
+    .myreward-tit .jin {
+        color: #22ac38;
+    }
+
+    .myreward-tit .chu {
+        color: #ff0000;
+    }
+
+.myreward-tit1 {
+    color: #999;
+    font-size: 0.75rem;
+}
+
+    .myreward-tit1 span {
+        float: right;
+        font-family: Arial;
+    }
+
+.user-myteam {
+    flex: 1;
+    margin-bottom: 1px;
+    padding: 10px 15px;
+    overflow: hidden;
+}
+
+.myteam-img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    overflow: hidden;
+    margin-right: 15px;
+}
+
+    .myteam-img img {
+        width: 50px;
+        height: 50px;
+    }
+
+.myteam-tit {
+    color: #000;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+
+.myteam-tit1 {
+    color: #666;
+    font-size: 0.75rem;
+    line-height: 15px;
+}
+
+
+/*=======================邀请好友=============================*/
+.invitefriends-ewm {
+    width: 50%;
+    margin: 50px auto 40px;
+    overflow: hidden;
+    text-align: center;
+    background: #fff;
+    padding: 30px;
+    -webkit-box-shadow: 0 0 25px 4px #ccc;
+    -moz-box-shadow: 0 0 25px 4px #ccc;
+    box-shadow: 0 0 25px 4px #ccc;
+}
+
+    .invitefriends-ewm img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+.invitefriends-tit {
+    color: #000;
+    font-size: 0.9rem;
+    line-height: 30px;
+}
+
+.invitefriends-tit1 {
+    color: #000;
+    font-size: 0.75rem;
+    line-height: 20px;
+    text-align: center;
+    margin: 10px 15%;
+}
+
+
+.invitefriends-tit2 a {
+    display: block;
+    width: 50px;
+    line-height: 14px;
+    padding: 5px 20px;
+    color: #fff;
+    font-size: 0.7rem;
+    background: #000;
+    border-radius: 5px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.invitefriends-tit2 img {
+    float: left;
+    height: 14px;
+}
+
+.Tutorial-jianjie {
+    padding: 15px 15px 20px 15px;
+    overflow: hidden;
+}
+
+.Tutorial-tt1 {
+    color: #000;
+    font-size: 0.95rem;
+    padding: 5px 10px;
+}
+
+    .Tutorial-tt1 span {
+        float: right;
+        color: #999;
+        font-size: 0.75rem;
+    }
+
+.Tutorial-tt2 {
+    color: #999;
+    font-size: 0.8rem;
+    line-height: 20px;
+    padding: 0 10px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.Tutorial-product-list {
+    padding: 15px;
+    overflow: hidden;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+
+    .Tutorial-product-list a {
+        display: flex;
+    }
+
+.Tutorial-product-img {
+    flex: 0 0 100px;
+    height: 90px;
+    overflow: hidden;
+}
+
+    .Tutorial-product-img img {
+        max-width: 100%;
+        display: block;
+    }
+
+.Tutorial-product-content {
+    flex: 1;
+    margin: 0 0 0 20px;
+}
+
+.Tutorial-product-txt33 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+    font-size: 0.95rem;
+    color: #000;
+    line-height: 22px;
+}
+
+.Tutorial-product-txt44 {
+    font-family: Arial;
+    font-size: 0.8rem;
+    color: #999;
+    line-height: 22px;
+    margin-top: 20px;
+}
+
+    .Tutorial-product-txt44 span {
+        float: right;
+        display: block;
+        width: 50px;
+        height: 13px;
+        line-height: 14px;
+        border-radius: 15px;
+        color: #fff;
+        font-size: 0.75rem;
+        background: #232780;
+        text-align: center;
+        padding: 4px 7px 5px 12px;
+    }
+
+        .Tutorial-product-txt44 span img {
+            height: 14px;
+            float: left;
+        }
+
+.Tutorial-product-txt55 {
+    font-size: 0.8rem;
+    color: #999;
+    line-height: 22px;
+    margin-top: 5px;
+}
+
+.course-tit2 {
+    font-size: 1rem;
+    color: #000;
+    line-height: 20px;
+    padding: 10px 15px;
+}
+
+.course-xf {
+    float: right;
+    width: 80px;
+}
+
+    .course-xf span {
+        float: left;
+        display: block;
+        width: 40px;
+        text-align: right;
+    }
+
+        .course-xf span img {
+            height: 20px;
+        }
+
+.course-tit3 {
+    font-size: 0.75rem;
+    color: #232780;
+    padding: 0 15px;
+}
+
+    .course-tit3 span {
+        color: #999;
+        padding-left: 20px;
+    }
+
+.course-tit4 {
+    font-size: 0.9rem;
+    color: #999;
+    line-height: 22px;
+    padding: 30px 15px;
+    letter-spacing: 1px;
+}
+
+.changePassword {
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    padding: 15px;
+    margin-bottom: 1px;
+}
+
+.changePassword-left {
+    flex: 0 0 70px;
+    overflow: hidden;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.changePassword-right {
+    flex: 1;
+}
+
+.changePassword-txt {
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    font-size: 0.9rem;
+    color: #000;
+    border: 0;
+    border-radius: 0;
+}
+
+.accountNumber {
+    font-size: 0.9rem;
+    color: #000;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+    height: auto;
+    display: flex;
+    line-height: 16px;
+}
+
+    .accountNumber a {
+        color: #000;
+    }
+
+    .accountNumber a {
+        width: 100%;
+        display: flex;
+    }
+
+    .accountNumber div:nth-child(1) {
+        flex: 0 0 80px;
+        overflow: hidden;
+        margin-bottom: 1px;
+    }
+
+    .accountNumber div:nth-child(2) {
+        font-size: 0.9rem;
+        color: #666;
+        flex: 1;
+        text-align: right;
+    }
+
+        .accountNumber div:nth-child(2) img {
+            height: 16px;
+            display: inline-block;
+            margin-top: 2px;
+        }
+
+.accountNumber-touxiang {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.we-ding {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.baocun {
+    width: 120px;
+    height: 36px;
+    border-radius: 4px;
+    background-color: #000;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    line-height: 36px;
+    outline: none;
+    border: 0;
+}
+
+.view {
+    width: 120px;
+    height: 120px;
+    background: url(../images/account_avatar@2x.png) center 0 no-repeat;
+    background-size: 120px;
+    margin: 0 auto;
+    border-radius: 100%;
+}
+
+.shangchuan {
+    width: 120px;
+    height: 35px;
+    background-color: #000;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    line-height: 35px;
+    outline: none;
+    position: absolute;
+    bottom: 0;
+    opacity: 0.6;
+}
+
+.file {
+    opacity: 0;
+    filter: alpha(opacity=0);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.registered {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.registered-fh {
+    padding: 50px 0 20px 0;
+}
+
+    .registered-fh img,
+    .registered-fh a {
+        height: 20px;
+        display: inline-block;
+    }
+
+.registered-tit1 {
+    font-size: 1.4rem;
+    color: #000;
+}
+
+.registered-tit2 {
+    font-size: 0.75rem;
+    color: #666;
+    padding: 15px 0 30px 0;
+}
+
+.registered-tit3 {
+    font-size: 0.8rem;
+    color: #232781;
+    text-align: center;
+}
+
+    .registered-tit3 a {
+        text-decoration: underline;
+    }
+
+.registered-tit4 {
+    font-size: 0.75rem;
+    color: #262A88;
+    text-align: right;
+    margin-top: 10px;
+}
+
+    .registered-tit4 a {
+        color: #262A88;
+    }
+
+.modal_content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .modal_content > div {
+        margin-top: 20px;
+        overflow: hidden;
+    }
+
+.phone {
+    display: block;
+    width: 99%;
+    height: 40px;
+    background: none;
+    border: 0;
+    outline: none;
+    font-size: 0.8rem;
+    border: 1px solid #d2d2d2;
+    border-radius: 25px;
+    text-indent: 20px;
+    -webkit-appearance: none;
+}
+
+.code1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 99%;
+    height: 40px;
+    background: none;
+    font-size: 0.8rem;
+    border: 1px solid #d2d2d2;
+    border-radius: 25px;
+}
+
+.code {
+    width: calc(100% - 90px);
+    height: 40px;
+    background: none;
+    border: 0;
+    outline: none;
+    text-indent: 20px;
+    font-size: 0.8rem;
+}
+
+#btnSendCode1 {
+    width: 85px;
+    height: 25px;
+    padding: 0 5px;
+    margin: 0;
+    font-size: 0.7rem;
+    text-align: center;
+    background: #eee;
+    border-radius: 30px;
+    color: #878787;
+    border: 1px solid #eee;
+    margin: 7px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-size: 14px;
+    color: rgba(0,0,0,.4);
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-size: 14px;
+    color: rgba(0,0,0,.4);
+}
+
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-size: 14px;
+    color: rgba(0,0,0,.4);
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-size: 14px;
+    color: rgba(0,0,0,.4);
+}
+
+.next {
+    text-align: center;
+    margin: 50px 0 15px;
+}
+
+    .next button {
+        width: 100%;
+        height: 40px;
+        padding: 0;
+        margin: 0;
+        color: #fff;
+        border: 0;
+        outline: none;
+        border-radius: 25px;
+        background: #232780;
+        background: -webkit-linear-gradient(left,#3035AC,#232780);
+        background: -o-linear-gradient(right,#3035AC,#232780);
+        background: -moz-linear-gradient(right,#3035AC,#232780);
+        background: linear-gradient(left right,#3035AC,#232780);
+    }
+
+.siyanli-b {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+    .siyanli-b > div {
+        flex: 1;
+        display: inline-block;
+    }
+
+.siyanli-c {
+    color: #666;
+    font-size: 0.75rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+    .siyanli-c a {
+        display: inline-block;
+        color: #666;
+    }
+
+    .siyanli-c i {
+        display: inline-block;
+        width: 45px;
+        height: 45px;
+    }
+
+.siyanli-icon1 {
+    background: url(../images/weixin@2x.png) center no-repeat;
+    background-size: 44px;
+}
+
+.siyanli-icon2 {
+    background: url(../images/zhifubao@2x.png) center no-repeat;
+    background-size: 44px;
+}
+
+.siyanli-icon3 {
+    background: url(../images/qq@2x.png) center no-repeat;
+    background-size: 44px;
+}
+
+.home-tit {
+    width: 117px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 80px auto 10PX;
+}
+
+    .home-tit > div {
+        float: left;
+        text-align: center;
+        color: #666;
+        font-size: 0.75rem;
+        display: inline-block;
+    }
+
+        .home-tit > div:nth-child(1),
+        .home-tit > div:nth-child(3) {
+            width: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home-tit > div:nth-child(2) {
+            width: 65px;
+        }
+
+        .home-tit > div:nth-child(1) span,
+        .home-tit > div:nth-child(3) span {
+            display: block;
+            width: 30px;
+            height: 1px;
+            background: #666;
+        }

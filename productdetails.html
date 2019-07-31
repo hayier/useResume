@@ -1,0 +1,186 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>产品详情</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
+    <meta name='viewport' content='width=640px, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi' />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link href="css/common.css?v=2.0" rel="stylesheet" />
+    <link href="css/banner.css?v=2.0" rel="stylesheet" />
+    <link href="css/hyfmain.css?v=2.0" rel="stylesheet" />
+    <link href="css/foot.css?v=2.0" rel="stylesheet" />
+    <script src="js/banner/jquery-2.1.4.min.js"></script>
+    <script src="js/banner/hhSwipe.js"></script>
+
+</head>
+<body>
+    <div class="scroll padding15">
+        <div class="scroll_box" id="scroll_img">
+            <ul class="scroll_wrap">
+                <li>
+                    <div>
+                        <img src="images/details_image1@2x.png" />
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/details_image1@2x.png" />
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <img src="images/details_image1@2x.png" />
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <span class="scroll_position_bg opacity6"></span>
+        <ul class="scroll_position" id='scroll_position' runat="server">
+            <li><a href="javascript:void(0);" class="on"></a></li>
+            <li><a href="javascript:void(0);"></a></li>
+            <li><a href="javascript:void(0);"></a></li>
+        </ul>
+    </div>
+    <script type="text/javascript">
+        window.onload = function urlborder() {
+            var listr = document.getElementById("div").getElementsByTagName('dl');
+            for (var i = 0; i < listr.length; i++) {
+                if (i == listr.length - 1) {
+                    listr[i].style.borderWidth = "0";
+                }
+            }
+        }
+    </script>
+    <script type="text/javascript">
+        var slider = Swipe(document.getElementById('scroll_img'), {
+            auto: 3000,
+            continuous: true,
+            callback: function (pos) {
+                var i = bullets.length;
+                while (i--) {
+                    bullets[i].className = ' ';
+                }
+                bullets[pos].className = 'on';
+            }
+        });
+        var bullets = document.getElementById('scroll_position').getElementsByTagName('a');
+        $(function () {
+            bullets[0].className = 'on';
+            $('.scroll_position_bg').css({
+                width: $('#scroll_position').width()
+            });
+        });
+    </script>
+    <div class="backfff">
+        <div class="themedetails-tit">￥200<span>快递费：￥2.00</span></div>
+        <div class="themedetails-content">标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题标题</div>
+    </div>
+    <div class="mqw-tit3"><span>-</span>宝贝详情<span>-</span></div>
+    <div class="productdetails">
+        <img src="images/details_image1@2x.png" />
+        <img src="images/details_image1@2x.png" />
+        <img src="images/details_image1@2x.png" />
+    </div>
+    <div class="pays-product">
+        <div class="pays-product-div backfff">
+            <div class="product-qw">
+                <a>
+                    <i class="product-fx"></i>
+                    <span>首页</span>
+                </a>
+            </div>
+            <div><input class="product-jiaru" id="btnBottom" type="button" value="加入购物车"></div>
+            <div><a class="product-gomai" href="#" id="lijibtn">立即购买</a></div>
+        </div>
+    </div>
+    <div class="layer-bottom">
+        <div class="mSlider-box">
+            <div class="mSlider-over">
+                <div class="order-product-list product-radius backfff">
+                    <div class="order-product-img">
+                        <img src="images/details_image1@2x.png" />
+                    </div>
+                    <div class="order-product-content">
+                        <div class="order-product-txt1">云南白药膏贴 15贴（跌打损伤 淤血肿痛 风湿 贴膏 膏药）</div>
+                        <div class="order-product-txt2">￥2300</div>
+                    </div>
+                </div>
+                <div class="specification">规格</div>
+
+                <ul class="Right_Box_list_three">
+                    <li id="jije_activeBG_0" class="activeTwo" onclick="jijeActiveBG('0')">云南白药膏贴 15贴</li>
+                    <li id="jije_activeBG_1" class="activeBG" onclick="jijeActiveBG('1')">云南白药膏贴 15贴</li>
+                    <li id="jije_activeBG_2" class="activeBG" onclick="jijeActiveBG('2')">一枝云南白药膏贴 15贴</li>
+                    <li id="jije_activeBG_3" class="activeBG" onclick="jijeActiveBG('3')">云南白药膏贴 15贴</li>
+                    <li id="jije_activeBG_4" class="activeBG" onclick="jijeActiveBG('4')">云南白药膏贴 15贴</li>
+                    <li id="jije_activeBG_5" class="activeBG" onclick="jijeActiveBG('5')">云南白药膏贴 15贴</li>
+                </ul>
+                <div class="shoppingSelect-right">
+                    <em>购买数量</em>
+                    <div class="sum">
+                        <span class="jian"><img src="images/jian.png" onclick="jian(event)" /></span>
+                        <span class="num">1</span>
+                        <span class="jia"><img src="images/jia.png" onclick="jia(event)" /></span>
+                    </div>
+                </div>
+            </div>
+            <div class="mSlider-btn align"><input class="product-jiarugw" id="btnBottom" type="button" value="加入购物车"></div>
+        </div>
+    </div>
+    <script src="js/mSlider.min.js"></script>
+    <script src="js/productList.js"></script>
+    <script>
+        window.onload = function () {
+
+            //移动端使用touchend
+            var event = navigator.userAgent.match(/(iPhone|iPod|Android|ios)/i) ? 'touchend' : 'click';
+
+            // 选择器
+            var Q = function (id) {
+                return document.getElementById(id)
+            };
+
+            //下
+            var _bottom = new mSlider({
+                dom: ".layer-bottom",
+                direction: "bottom"
+            })
+            Q("btnBottom").addEventListener(event, function (e) {
+                _bottom.open();
+            })
+            Q("lijibtn").addEventListener(event, function (e) {
+                _bottom.open();
+            })
+
+        }
+    </script>
+    <script>
+
+        //购物车 商品数量减
+        function jian(event) {
+            event = window.event || event;
+            var num = parseInt(event.target.parentElement.parentElement.children[1].innerText);
+            if (num <= 1) {
+                return;
+            }
+            num--;
+            event.target.parentElement.parentElement.children[1].innerText = num;
+        }
+        //购物车 商品数量加
+        function jia(event) {
+            event = window.event || event;
+            var num = parseInt(event.target.parentElement.parentElement.children[1].innerText);
+            if (num >= 9999) {
+                return;
+            }
+            num++;
+            event.target.parentElement.parentElement.children[1].innerText = num;
+        }
+
+    </script>
+</body>
+</html>

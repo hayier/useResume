@@ -1,0 +1,142 @@
+﻿@charset "utf-8";
+
+.padding15 {
+    padding: 0 15px;
+}
+
+.top60 {
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.hyf-sousuo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    background: #fff;
+    overflow: hidden;
+    z-index: 10;
+}
+
+.sousuo-txt {
+    width: 100%;
+    height: 30px;
+    background: #EBEBEB url(../images/home-@2x.png) no-repeat;
+    background-position: left 5px top 2px;
+    background-size: 24px;
+    border: 1px solid #EBEBEB;
+    border-radius: 5px;
+    text-indent: 40px;
+    color: #000;
+    font-size: 0.8rem;
+}
+
+.home-cp {
+    padding: 10px 0;
+}
+
+    .home-cp a {
+        display: inline-block;
+    }
+
+    .home-cp img {
+        width: 100%;
+        display: block;
+    }
+
+.home-div > div:last-child {
+    border: none;
+}
+
+.home-boxs {
+    padding: 20px 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.home-tit {
+    width: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto 10px;
+}
+
+    .home-tit > div {
+        float: left;
+        text-align: center;
+        color: #000;
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+        .home-tit > div:nth-child(1),
+        .home-tit > div:nth-child(3) {
+            width: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home-tit > div:nth-child(2) {
+            width: 100px;
+        }
+
+        .home-tit > div:nth-child(1) span,
+        .home-tit > div:nth-child(3) span {
+            display: block;
+            width: 30px;
+            height: 1px;
+            background: #000;
+        }
+
+.themedetails-product {
+    width: 97%;
+    margin: 10px auto;
+    overflow: hidden;
+}
+
+    .themedetails-product > div {
+        float: left;
+        width: 46%;
+        margin: 0 2% 20px;
+    }
+
+.themedetails-div a {
+    display: block;
+}
+
+.themedetails-img {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-top: 100%;
+    border-radius: 5px;
+}
+
+    .themedetails-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+.themedetails-title {
+    line-height: 20px;
+    height: 40px;
+    padding: 10px 0;
+    color: #000;
+    font-size: 0.75rem;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+}
+
+.themedetails-price {
+    color: #232780;
+    font-size: 1rem;
+    font-weight: bold;
+}

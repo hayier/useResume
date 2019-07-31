@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+
+/*-----------------------------轮换图片--------------------------*/
+.scroll {
+    margin: 0px auto;
+    max-width: 640px;
+    position: relative;
+}
+
+.scroll_box {
+    overflow: hidden;
+    visibility: hidden;
+    position: relative;
+}
+
+.scroll_wrap {
+    overflow: hidden;
+    position: relative;
+}
+
+    .scroll_wrap li {
+        position: relative;
+        display: block;
+        width: 100%;
+        float: left;
+    }
+
+        .scroll_wrap li a {
+            display: block;
+            margin: 0 auto;
+            position: relative;
+        }
+
+.scroll_position {
+    z-index: 2;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    position: relative;
+    bottom: 30px;
+}
+
+    .scroll_position li {
+        display: inline-block;
+        z-index: 1;
+        padding: 0 2px;
+    }
+
+        .scroll_position li a {
+            width: 9px;
+            height: 9px;
+            box-sizing: border-box;
+            text-decoration: none;
+            outline: none;
+            float: left;
+            background: rgba(250,250,250,0.8);
+            z-index: 1;
+            font-size: 0px;
+            border-radius: 100%;
+        }
+
+
+            .scroll_position li a.on {
+                background: rgba(0,0,0,0.8);
+            }
+
+.scroll_position_bg {
+    z-index: 2;
+    height: 10px;
+    text-align: center;
+}
+
+.scroll_wrap li img {
+    width: 100%;
+    display: block;
+}

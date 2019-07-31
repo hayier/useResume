@@ -1,0 +1,143 @@
+﻿@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body, html {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    background: #fff;
+}
+
+.DressCoinRecharge {
+    width: 100%;
+    height: 100%;
+}
+
+.DressCoinRecharge-title {
+    width: 100%;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    padding: 15px;
+    color: #000;
+    font-size: 0.9rem;
+    box-sizing: border-box;
+    background: url(../images/personal-bg3.png) center 0 no-repeat;
+    background-size: cover;
+}
+
+    .DressCoinRecharge-title span:nth-child(1) {
+        margin-right: 20px;
+    }
+
+.DressCoinRecharge-content {
+    width: 100%;
+    height: 250px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-top: 30px;
+}
+
+    .DressCoinRecharge-content > span {
+        font-weight: 700;
+        font-size: 0.9rem;
+    }
+
+    .DressCoinRecharge-content ul {
+        width: 100%;
+        height: 91%;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        margin-top: 10px;
+    }
+
+        .DressCoinRecharge-content ul li {
+            width: 46%;
+            height: 30%;
+            border: 1px solid #f7f7f7;
+            box-sizing: border-box;
+            background: #f7f7f7;
+            margin: 2%;
+            border-radius: 7px;
+            border: 1px solid #f7f7f7;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .DressCoinRecharge-content ul .active {
+            background: #f7f7f7 url(../images/selected@2x.png) no-repeat;
+            background-position: right -3px bottom -5px;
+            background-size: 30px;
+            color: #242883;
+            border: 1px solid #242883;
+        }
+
+
+        .DressCoinRecharge-content ul li .span1 {
+            color: #000;
+            font-size: 1.2rem;
+        }
+
+
+        .DressCoinRecharge-content ul .active span {
+            color: #242883;
+        }
+
+.DressCoinRecharge-footer {
+    width: 100%;
+    height: 45px;
+    box-shadow: 5px 0 5px #ccc;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+    .DressCoinRecharge-footer span {
+        margin-right: 10px;
+        font-size: 0.9rem;
+    }
+
+    .DressCoinRecharge-footer .qrzf {
+        width: 40%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        background: #533F34;
+    }
+
+.order-application {
+    position: fixed;
+    right: 5%;
+    bottom: 20px;
+    left: 5%;
+    -webkit-appearance: none;
+    border: 0;
+    width: 90%;
+    height: 38px;
+    color: #fff;
+    letter-spacing: 0.5px;
+    font-size: 1rem;
+    border-radius: 0;
+    background: #232780;
+}

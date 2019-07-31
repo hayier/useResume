@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>余额充值</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
+    <meta name='viewport' content='width=640px, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi' />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link href="css/common.css?v=2.0" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="css/DressCoinRecharge.css?v=1.0" />
+</head>
+<body>
+    <div class="DressCoinRecharge">
+        <div class="DressCoinRecharge-title">
+            <span>账户：申小申</span>
+            <span>现剩余额：10.23万</span>
+        </div>
+        <div class="DressCoinRecharge-content">
+            <span>充值金额</span>
+            <ul class="DressCoinRecharge-List">
+                <li class="active">
+                    <span class="span1">10元</span>
+                </li>
+                <li>
+                    <span class="span1">20元</span>
+                </li>
+                <li>
+                    <span class="span1">50元</span>
+                </li>
+                <li>
+                    <span class="span1">100元</span>
+                </li>
+                <li>
+                    <span class="span1">200元</span>
+                </li>
+                <li>
+                    <span class="span1">500元</span>
+                </li>
+                <li>
+                    <span class="span1">1000元</span>
+                </li>
+            </ul>
+        </div>
+
+        <input class="order-application" id="Button1" type="button" value="确认充值" />
+    </div>
+
+</body>
+</html>
+<script src="js/jquery.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/DressCoinRecharge.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript">
+    $('.DressCoinRecharge-List li').click(function (e) {
+        e = window.e || e;
+        var li = $('.DressCoinRecharge-List li');
+        var liEv = li.children;
+        for (var i = 0; i < li.length; i++) {
+            li[i].className = '';
+            li[i].style.color = '#000';
+        }
+        if (e.target.localName == 'li') {
+            e.target.className = 'active';
+            e.target.style.color = '#000';
+        } else {
+            var ev = e.target.parentElement.parentNode.children;
+            for (var i = 0; i < ev.length; i++) {
+                ev[i].style.color = '#000';
+                if (ev[i] == e.target.nextSibling.parentElement) {
+                    e.target.nextSibling.parentElement.className = 'active';
+                    e.target.nextSibling.parentElement.style.color = '#000';
+                }
+            }
+        }
+    })
+</script>

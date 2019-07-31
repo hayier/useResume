@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>账号设置</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=7,IE=9" />
+    <meta name='viewport' content='width=640px, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no,target-densitydpi=device-dpi' />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" />
+    <meta name="format-detection" content="telephone=no" />
+    <link href="css/common.css?v=2.0" rel="stylesheet" />
+    <link href="css/hyfmain.css?v=2.0" rel="stylesheet" />
+    <script src="js/SC/jquery-1.10.2.js"></script>
+    <script src="js/SC/iscroll-zoom.js"></script>
+    <script src="js/SC/hammer.js"></script>
+    <script src="js/SC/lrz.all.bundle.js"></script>
+    <script src="js/SC/jquery.photoClip.min.js"></script>
+
+
+</head>
+<body style=" background:#eee;">
+
+    <div class="accountNumber-touxiang backfff">
+        <div style="min-height:1px;line-height:160px;text-align:center;position:relative;" ontouchstart="">
+            <div class="cover-wrap" style="display:none;position:fixed;left:0;top:0;width:100%;height:100%;background: rgba(0, 0, 0, 0.4);z-index: 100;text-align:center;">
+                <div class="" style="width:100%;height:420px;margin:20% auto 0;background-color:#FFFFFF;overflow: hidden;border-radius:4px;">
+                    <div id="clipArea" style="margin:10px;height: 340px;"></div>
+                    <div class="" style="height:56px;line-height:36px;text-align: center;padding-top:8px;">
+                        <button id="clipBtn" class="baocun">保存</button>
+                    </div>
+                </div>
+            </div>
+            <div class="we-ding">
+                <div class="view" id="view">
+                </div>
+                <div class="shangchuan">
+                    更换头像
+                    <input class="file" type="file" id="file">
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="accountNumber backfff">
+        <div>账户名称</div><div>Floating world</div>
+    </div>
+    <div class="accountNumber backfff borbtn5">
+        <div>手机号码</div><div>15012771029</div>
+    </div>
+    <div class="accountNumber backfff borbtn5">
+        <a href="#">
+            <div>修改密码</div><div><img src="images/subordinate@2x.png" /></div>
+        </a>
+    </div>
+    <script type="text/javascript">
+
+        //上传封面
+        //document.addEventListener('touchmove', function (e) { e.preventDefault(); }, false);
+        var clipArea = new bjj.PhotoClip("#clipArea", {
+            size: [428, 321],// 截取框的宽和高组成的数组。默认值为[260,260]
+            outputSize: [428, 321], // 输出图像的宽和高组成的数组。默认值为[0,0]，表示输出图像原始大小
+            //outputType: "jpg", // 指定输出图片的类型，可选 "jpg" 和 "png" 两种种类型，默认为 "jpg"
+            file: "#file", // 上传图片的<input type="file">控件的选择器或者DOM对象
+            view: "#view", // 显示截取后图像的容器的选择器或者DOM对象
+            ok: "#clipBtn", // 确认截图按钮的选择器或者DOM对象
+            loadStart: function () {
+                // 开始加载的回调函数。this指向 fileReader 对象，并将正在加载的 file 对象作为参数传入
+                $('.cover-wrap').fadeIn();
+                console.log("照片读取中");
+            },
+            loadComplete: function () {
+                // 加载完成的回调函数。this指向图片对象，并将图片地址作为参数传入
+                console.log("照片读取完成");
+            },
+            //loadError: function(event) {}, // 加载失败的回调函数。this指向 fileReader 对象，并将错误事件的 event 对象作为参数传入
+            clipFinish: function (dataURL) {
+                // 裁剪完成的回调函数。this指向图片对象，会将裁剪出的图像数据DataURL作为参数传入
+                $('.cover-wrap').fadeOut();
+                $('#view').css('background-size', '160px');
+                console.log(dataURL);
+            }
+        });
+        //clipArea.destroy();
+    </script>
+</body>
+</html>
